@@ -1,0 +1,11 @@
+.profile-avatar a {
+  position: absolute;
+  bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,58 @@
+thead tr {
+  height: 40px;
+}
+.scrol-table {
+  width: 40px;
+  height: 40px;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  width: 201px;
+  gap: 4px;
+}
+.item img {
+  width: 16px;
+  height: 16px;
+  margin: 4px;
+}
+.description {
+  width: 539px;
+}
+.total {
+  width: 117px;
+}
+.price {
+  width: 96px;
+  text-align: right;
+}
+.description-table th {
+  padding: 8px;
+  font-weight: 600;
+}
+.description-table .scrol-table img {
+  width: 24px;
+  height: 24px;
+  color: #3a3a3a;
+}
+.description-table tbody tr {
+  justify-content: flex-start;
+  height: 40px;
+}
+.description-table tbody tr td {
+  padding: 8px;
+}
+
+.description-table tbody .total-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+.description-table tbody .total-price span {
+  padding: 8px;
+  width: 105px;
+}
+.description-table tbody .total-price span:last-child {
+  text-align: right;
+}

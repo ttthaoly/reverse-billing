@@ -1,0 +1,17 @@
+
+  textarea {
+    width: 359px;
+    height: 136px;
+    padding: 8px 10px 8px 40px;
+  }
+  .search-bar {
+    position: relative;
+  }
+  .search-bar button img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+    top: 0;
+    left: 0;
+  }

@@ -1,0 +1,86 @@
+.table table {
+  width: 100%;
+  height: auto;
+  border-spacing: 0;
+  border: 1px solid #cdcdcd;
+  border-radius: 8px;
+}
+/* thead {
+  height: 48px;
+  /* background-color: #051f35; */
+/* border: none;
+  border-radius: 8px;
+} */
+thead tr {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  height: 48px;
+
+  border-radius: 8px 8px 0 0;
+}
+th {
+  padding: 12px 0;
+}
+.checkbox-table {
+  padding-left: 16px;
+  width: 56px;
+}
+tbody .checkbox-table {
+  padding: 48px 0 0 16px;
+}
+.checkbox-table input {
+  width: 16px;
+  height: 16px;
+  margin: 4px;
+}
+.setting-table {
+  width: 63px;
+  padding: 12px 19.5px;
+}
+tbody .setting-table {
+  padding: 48px 16px;
+}
+.setting-table img {
+  width: 16px;
+  height: 18px;
+  margin: 3px 4px;
+}
+tbody tr {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 120px;
+  border-bottom: 1px solid #cdcdcd;
+}
+tbody tr:last-child {
+  border-bottom: none;
+}
+#id {
+  padding-left: 16px;
+  width: 196px;
+}
+#details {
+  padding-left: 16px;
+  width: 189px;
+}
+#time {
+  padding-left: 16px;
+  width: 151px;
+}
+#vendor {
+  padding-left: 16px;
+  width: 140px;
+}
+#cost {
+  padding-left: 16px;
+  width: 93px;
+}
+#lastupdate {
+  padding-left: 16px;
+  width: 155px;
+}
+#status {
+  padding-left: 16px;
+  width: 137px;
+}

@@ -1,0 +1,96 @@
+.left-side-bar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #051f35;
+}
+
+.right {
+  position: absolute;
+  top: 40px;
+  left: 220px;
+  width: 100%;
+}
+
+.right .container-cost-repository {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.Cost-repository {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.background-cost-repository {
+  display: flex;
+  flex-direction: column;
+  background-color: #d9e4ea;
+  gap: 16px;
+  padding: 16px;
+}
+.info-cost-repository {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  width: 1148px;
+  height: 168px;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.search-criteria {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+}
+.select-top,
+.select-bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 64px;
+  gap: 16px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  height: 56px;
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: end;
+  gap: 4px;
+  padding: 8px 40px 8px 0;
+}
+
+@media screen and (max-width: 590px) {
+}
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 912px) {
+}
+
+@media screen and (max-width: 1132px) {
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1608px) {
+}

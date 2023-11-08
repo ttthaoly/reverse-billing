@@ -1,0 +1,24 @@
+.id {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+  width: 196px;
+  /* height: 120px; */
+  padding: 32px 2px 32px 16px;
+  gap: 8px;
+}
+
+.id div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.id div img {
+  width: 16px;
+  height: 16px;
+  margin: 4px 0;
+}
+.id div:last-child img {
+  margin-right: 3px;
+}

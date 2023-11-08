@@ -1,0 +1,10 @@
+.time {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+  width: 152px;
+  /* height: 120px; */
+  padding: 34px 0 34px 16px;
+  gap: 4px;
+}

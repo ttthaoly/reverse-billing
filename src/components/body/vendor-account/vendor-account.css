@@ -1,0 +1,64 @@
+.input-form {
+  display: flex;
+  flex-direction: column;
+  width: 239px;
+}
+.selectBox select {
+  width: 100%;
+}
+#dropdown-menu {
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  width: 239px;
+  height: 396px;
+  border-radius: 8px;
+  padding: 8px 0;
+  margin-top: 4px;
+  gap: 4px;
+  background-color: #ffffff;
+  box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+.menu-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48px;
+  padding: 4px 8px 4px 16px;
+  gap: 4px;
+}
+.menu-action input {
+  width: 16px;
+  height: 16px;
+  margin: 6px;
+}
+.button-dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  height: 40px;
+  gap: 10px;
+  border-top: 1px solid #cdcdcd;
+  padding: 8px 10px 0 10px;
+}
+.button-dropdown .btn.btn-solid1 {
+  width: 61px;
+  height: 32px;
+  padding: 4px 12px;
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+}
+.button-dropdown .btn.btn-solid2 {
+  width: 61px;
+  height: 32px;
+  padding: 4px 12px;
+  border: none;
+  border-radius: 4px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+select {
+  height: 40px;
+}

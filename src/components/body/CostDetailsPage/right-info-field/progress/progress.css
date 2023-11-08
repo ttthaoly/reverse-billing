@@ -1,0 +1,5 @@
+.progress-bar {
+  z-index: 1;
+  height: 4px;
+  background-color: pink;
+}

@@ -1,0 +1,54 @@
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 11px;
+}
+a {
+  text-decoration: none;
+}
+.items {
+  display: flex;
+  width: 180px;
+  height: auto;
+  flex-direction: column;
+
+  list-style-type: none;
+  padding: 0px;
+  gap: 2px;
+}
+.item {
+  margin-right: 0px;
+}
+li.item:last-child {
+  margin-right: 0px;
+}
+.item a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+}
+.item a div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 8px;
+}
+
+div.nav-bar ul.items li.item a:hover {
+  background-color: #144876;
+}
+.items .item img {
+  margin-right: 8px;
+}
+
+.menu-Vendor-costing {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+.items .item .menu-Vendor-costing img {
+  margin-left: 24px;
+}

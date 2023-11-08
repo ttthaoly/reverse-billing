@@ -1,0 +1,26 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 120px;
+    height: 32px;
+    gap: 8px;    
+    margin: 12px 0 0 11px;
+  }
+  .user {
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+  .user .user-name {
+    width: 32px;
+    height: 32px;
+  }
+  .user .stt {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 1.5px;
+    bottom: 1px;
+  }

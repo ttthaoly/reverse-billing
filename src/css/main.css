@@ -1,0 +1,17 @@
+
+
+*,
+html {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-size: 16px;
+}
+body {
+  background-color: #ffffff;
+}
+button{
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}

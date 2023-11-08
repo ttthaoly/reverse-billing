@@ -1,0 +1,34 @@
+/* Utilities CSS */
+.container {
+  position: relative;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+/* Float */
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-both {
+  clear: both;
+}
+
+/* Width */
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-1\/3 {
+  width: 33%;
+}

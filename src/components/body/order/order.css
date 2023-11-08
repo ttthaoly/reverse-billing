@@ -1,0 +1,8 @@
+.input-form {
+    display: flex;
+    flex-direction: column;
+    width: 239px;
+  }
+  select {
+    height: 40px;
+  }

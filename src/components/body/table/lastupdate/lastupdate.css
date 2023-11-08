@@ -1,0 +1,10 @@
+.lastupdate {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+  width: 152px;
+  /* height: 120px; */
+  padding: 36px 0 36px 16px;
+  gap: 4px;
+}

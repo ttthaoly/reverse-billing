@@ -1,0 +1,116 @@
+@import url("../css/theme.css");
+
+/* background */
+.primary-background-color {
+  background-color: var(--primary-background-color);
+}
+.secondary-background-color {
+  background-color: var(--secondary-background-color);
+}
+.tertiary-background-color {
+  background-color: var(--tertiary-background-color);
+}
+.text-color1 {
+  /* ffffff */
+  color: var(--text-color1);
+}
+.text-color2 {
+  /* 1d1d1d */
+  color: var(--text-color2);
+}
+.text-color3 {
+  /* 3a3a3a */
+  color: var(--text-color3);
+}
+.text-color4 {
+  /* a6a6a6 */
+  color: var(--text-color4);
+}
+.text-color5 {
+  /* 909090 */
+  color: var(--text-color5);
+}
+.text-color6 {
+  /* 888888 */
+  color: var(--text-color6);
+}
+.text-color7 {
+  /* #C5E1FF */
+  color: var(--text-color7);
+}
+.text-color8 {
+  /* #0F61FD */
+  color: var(--text-color8);
+}
+.text-color9 {
+  /* #000000 */
+  color: var(--text-color9);
+}
+
+.text-xxs {
+  /* 10 */
+  font-size: var(--text-xxs);
+  font-weight: 400;
+  line-height: 14px;
+}
+.text-xs {
+  /* 12 */
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: 16px;
+}
+.text-sm {
+  /* 14 */
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: 24px;
+}
+.text-base {
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: 20px;
+}
+.text-lg {
+  /* 24 */
+  font-size: var(--text-lg);
+  font-weight: 500;
+  line-height: 32px;
+}
+.text-xl {
+  /* 18 */
+  font-size: var(--text-xl);
+  font-weight: 700;
+  line-height: 24px;
+}
+.text-xxl {
+  /* 16 */
+  font-size: var(--text-xl);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* button */
+.btn {
+  font-size: var(--solid-button-font-size);
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn.btn-solid1 {
+  /* 093359 */
+  background-color: var(--solid-button-background-color1);
+  color: var(--solid-button-text-color1);
+}
+.btn.btn-solid2 {
+  /* ffffff */
+  background-color: var(--solid-button-background-color2);
+  color: var(--solid-button-text-color2);
+}
+.btn.btn-solid1:hover {
+  background-color: rgb(155, 155, 155);
+  color: rgb(99, 88, 88);
+}
+.btn.btn-solid2:hover {
+  background-color: rgb(87, 93, 111);
+  color: rgb(99, 88, 88);
+}

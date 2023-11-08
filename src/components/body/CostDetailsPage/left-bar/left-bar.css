@@ -1,0 +1,93 @@
+.left-bar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 72px;
+  width: 359px;
+  height: 100%;
+  padding: 24px;
+  background-color: #f0f0f0;
+}
+.pickup-dropoff {
+  height: 261px;
+  padding: 12px 0px 0px 24px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+/* -------------------- */
+.info {
+  height: 316px;
+  padding: 24px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  gap: 16px;
+}
+.info > div > span {
+  font-weight: 500;
+}
+.info > div > div > span {
+  font-weight: 500;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.pick-up {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+}
+.pick-up > .img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+.pick-up > .text {
+  display: flex;
+  flex-direction: column;
+}
+.detail {
+  width: 8px;
+  height: 8px;
+  margin-bottom: 6px;
+}
+.detail:last-child {
+  margin-bottom: 0px;
+}
+.pickup {
+  width: 28px;
+  height: 28px;
+}
+.dropoff {
+  width: 28px;
+  height: 28px;
+  margin-top: 13px;
+}
+.pickup-dropoff .text-base.text-color6 {
+  font-weight: 500;
+}
+
+.text-pickup {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+  gap: 4px;
+}
+.text-dropoff {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+  gap: 4px;
+}
+
+.text-xs.text-color6 {
+  margin-left: 4px;
+}

@@ -1,0 +1,69 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 32px;
+  margin-top: 24px;
+}
+
+.left-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.dropdown-result {
+  display: flex;
+  align-items: center;
+  width: 124px;
+  gap: 8px;
+}
+.dropdown-result select {
+  width: 57px;
+  height: 32px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  padding-left: 12px;
+}
+
+.right-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.page-item {
+  list-style-type: none;
+}
+.page-item a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* list-style-type: none; */
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  width: 77px;
+  height: 32px;
+  gap: 4px;
+  padding: 4px 8px;
+}
+.page-item a img {
+  width: 24px;
+  height: 24px;
+  padding: 7.24px 9.8px;
+}
+
+.pagenumbers {
+  display: flex;
+}
+.pagenumber {
+  border: none;
+  background-color: #ffffff;
+  width: 25px;
+  height: 22px;
+}

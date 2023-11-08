@@ -1,0 +1,12 @@
+.button .btn.btn-solid2 {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+  }
+  .button .btn.btn-solid1 {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+  }

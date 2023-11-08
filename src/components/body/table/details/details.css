@@ -1,0 +1,25 @@
+.details {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 191px;
+  /* height: 120px; */
+  padding: 16px 16px 16px 16px;
+  gap: 4px;
+}
+.details div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+}
+.details .qty {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+.details img {
+  width: 16px;
+  height: 16px;
+  margin: 4px;
+}
